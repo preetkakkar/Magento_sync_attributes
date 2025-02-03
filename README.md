@@ -18,4 +18,4 @@ Additionally, it can update the attribute group names within attribute sets, mai
 
 This solution is ideal for businesses managing multiple Magento instances or migrating attributes while ensuring a structured and organized product setup.
 
-##This script has been tested and verified to work in Magento 2.3 and Magento 2.4.
+## This script has been tested and verified to work in Magento 2.3 and Magento 2.4.
