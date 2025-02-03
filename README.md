@@ -17,3 +17,5 @@ Additionally, it can update the attribute group names within attribute sets, mai
 <strong>Automation & Efficiency: </strong> Reduces manual work by automating attribute management across stores. <br>
 
 This solution is ideal for businesses managing multiple Magento instances or migrating attributes while ensuring a structured and organized product setup.
+
+##This script has been tested and verified to work in Magento 2.3 and Magento 2.4.
