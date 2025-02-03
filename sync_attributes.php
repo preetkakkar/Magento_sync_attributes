@@ -10,7 +10,7 @@ ini_set('max_execution_time', '0');
 error_reporting(E_ALL);
 
 use Magento\Framework\App\Bootstrap;
-require '/home/site/public_html/app/bootstrap.php';
+require '/home/site/public_html/app/bootstrap.php'; //add path of your file
 
 
 $bootstrap = Bootstrap::create(BP, $_SERVER);
@@ -24,7 +24,7 @@ $registry = $objectManager->get('\Magento\Framework\Registry');
 $registry->register('isSecureArea', true);
 
 $userData = array("username" => "", "password" => ""); // Login details of source Magento si5te
-$url = ""; //site url
+$url = ""; //Your source site url
 
 $ch = curl_init("$url/index.php/rest/all/V1/integration/admin/token");
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
